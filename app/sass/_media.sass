@@ -1,0 +1,375 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1440px)
+	.section-main_2
+		.right-block
+			.carousel-block
+				.visual-content
+					width: auto
+					left: auto
+					margin-left: auto
+					.center-line
+						width: 80%
+						margin: auto
+						.h1
+							font-size: 60px
+						.h2
+							font-size: 36px
+			.bottom-block
+				.check-side
+					ul
+						li:first-child
+							float: left
+							margin-right: 0
+							margin-left: 15px
+						li
+							margin-right: 15px
+		.left-block
+			.contact-form-block
+				.wpcf7:last-child
+					.wpcf7-checkbox
+						span.wpcf7-list-item-label
+							font-size: 15px
+							margin-right: 25px
+			.tel-wrap
+				padding-bottom: 10px
+				p
+					font-size: 22px
+				span
+					font-size: 32px
+
+@media only screen and (max-width : 1400px)
+	.section-main_2
+		.right-block
+			width: 70%
+			.carousel-block
+				.visual-content
+					.center-line
+						width: 70%
+						.h1
+							font-size: 42px
+							padding: 14px 20px 14px 34px
+						.h2
+							font-size: 22px
+			.bottom-block
+				.check-side
+					ul
+						li
+							font-size: 20px
+							&:before
+								bottom: 2px
+		.left-block
+			width: 30%
+			.contact-form-block
+				.wpcf7
+					.wpcf7-form
+						overflow: hidden
+					p
+						span
+							input
+								width: 300px
+								float: right
+						.wpcf7-submit
+							float: right
+							width: 300px
+						&:nth-child(5)
+							width: 300px
+							float: right
+			.tel-wrap
+				padding-bottom: 30px
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.section-main
+		.bottom-line
+			.copy-center
+				padding-left: 0
+	.section-main_2
+		display: block
+		.right-block
+			width: 100%
+			.copy-line
+				display: none
+		.left-block
+			padding-top: 15px
+			width: 100%
+			.gif-arrow-block
+				&:before
+					left: 340px
+				&:after
+					right: 345px
+			.contact-form-block
+				.wpcf7
+					form
+						width: 70%
+						margin: auto
+					p
+						span
+							input
+								width: 100%
+						.wpcf7-submit
+							margin: auto
+							float: none
+						&:nth-child(5)
+							width: 100%
+							.wpcf7-checkbox
+								span.wpcf7-list-item-label
+									font-size: 16px
+									float: right
+								input
+									height: 16px
+									bottom: -20px
+			.tel-wrap
+				text-align: center
+				padding-bottom: 60px
+				p
+					font-size: 24px
+				span
+					font-size: 34px
+			.copy-line
+				display: block
+				padding-top: 20px
+				.copy-center
+					text-align: right
+					padding-left: 0
+				.copy-left
+					padding-left: 0
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.section-main
+		.bottom-line
+			.copy-center
+				text-align: right
+			.copy-left
+				padding-left: 0
+	.section-main_2
+		.right-block
+			.carousel-block
+				.visual-content
+					.center-line
+						.h1
+							font-size: 36px
+						.h2
+							font-size: 20px
+			.bottom-block
+				.picture-side
+					.picture-wrap
+						width: 100%
+						float: none
+						&:first-child
+							margin-right: 0
+		.left-block
+			.gif-arrow-block
+				&:after
+					right: 227px
+				&:before
+					left: 225px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.flex-content
+		.h1
+			font-size: 38px
+		.h2
+			font-size: 26px
+			margin-bottom: 40px
+
+	.copy-line
+		.copy-left
+			padding-left: 0
+		.copy-center
+			text-align: right
+			padding-left: 0
+
+	.section-main_2
+		.right-block
+			.carousel-block
+				.visual-content
+					.center-line
+						width: 90%
+						margin-top: 100px
+						.h1
+							padding: 14px 14px
+							font-size: 30px
+						.h2
+							font-size: 18px
+							margin-bottom: 100px
+						.h1:before
+							content: none
+					.bottom-line
+						ul
+							li
+								font-size: 14px
+			.bottom-block
+				.check-side
+					padding: 15px 0
+					ul
+						li
+							font-size: 14px
+							padding-right: 30px
+							&:before
+								width: 22px
+								height: 20px
+								background-size: contain
+		.left-block
+			padding-top: 10px
+			.gif-arrow-block
+				&:after
+					right: 90px
+				&:before
+					left: 90px
+			.contact-form-block
+				.wpcf7
+					form
+						width: 100%
+					p
+						.wpcf7-submit
+							width: 300px
+							padding: 10px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.flex-content
+		.h1
+			font-size: 26px
+		.h2
+			font-size: 18px
+			margin-bottom: 30px
+
+	.button
+		padding: 12px 16px 12px 16px
+		font-size: 18px
+
+	.copy-line
+		padding: 5px 0
+		.copy-wrap
+			display: flex
+			height: 100%
+			> div
+				margin: auto
+		.copy-center
+			padding-left: 0
+			p
+				font-size: 11px
+		.copy-left
+			padding-left: 0
+			a
+				font-size: 11px
+			img
+				width: 70px
+
+	.section-main_2
+		.right-block
+			.carousel-block
+				.visual-content
+					.center-line
+						.h1
+							font-size: 20px
+							padding: 10px 10px
+						.h2
+							font-size: 12px
+					.bottom-line
+						padding: 0 10px
+						ul
+							li
+								font-size: 12px
+			.bottom-block
+				.check-side
+					ul
+						display: table
+						width: auto
+						margin: auto
+						li
+							display: table
+							vertical-align: middle
+							float: none
+							margin: 0
+							&:first-child
+								float: none
+								margin: 0
+		.left-block
+			.gif-arrow-block
+				&:after
+					right: 10px
+				&:before
+					left: 10px
+			.contact-form-block
+				padding: 0 15px
+			.tel-wrap
+				padding: 0 5px 20px 5px
+				p
+					font-size: 22px
+				span
+					font-size: 30px
+
+/*==========  Mobile First  ==========*/
+
+@media only screen and (min-width : 1440px)
+	.section-main_2
+		.right-block
+			width: 75%
+			.bottom-block
+				.check-side
+					ul
+						li:first-child
+							float: left
+							margin-right: 0
+							margin-left: 15px
+						li
+							margin-right: 15px
+		.left-block
+			width: 25%
+			.contact-form-block
+				.wpcf7
+					p
+						span
+							input
+								width: 299px
+								float: right
+						.wpcf7-submit
+							float: right
+
+@media only screen and (min-width : 1600px)
+	.section-main_2
+		.left-block
+			.contact-form-block
+				.wpcf7
+					p
+						span
+							input
+								width: 320px
+								float: right
+						.wpcf7-submit
+							float: right
+					&:last-child
+						width: 320px
+
+@media only screen and (min-width : 1920px)
+	.section-main_2
+		.right-block
+			width: 80%
+			.bottom-block
+				.check-side
+					ul
+						li:first-child
+							margin-right: 215px
+							margin-left: 380px
+							float: right
+		.left-block
+			width: 20%
+			.contact-form-block
+				.wpcf7
+					p
+						span
+							input
+								width: 320px
+								float: right
+						.wpcf7-submit
+							float: right
